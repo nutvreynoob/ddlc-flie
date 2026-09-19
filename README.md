@@ -20,7 +20,7 @@ Welcome to the **Doki Doki Literature Club! (DDLC)** mod development repository!
 ## 🛠️ Requirements & Setup
 
 ### Prerequisites
-* **Ren'Py SDK:** Version `6.99.12.4` (Recommended for original DDLC mod compatibility).
+* **Ren'Py SDK:** Version `6.99.12.4`(https://www.renpy.org/release/6.99.12) (Recommended for original DDLC mod compatibility). 
 * **Git:** For version control.
 
 ### Installation & Launch
