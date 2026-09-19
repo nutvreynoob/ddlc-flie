@@ -1,0 +1,45 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/00_definitions.rpy", line 1: expected statement.
+    [code]
+          ^
+
+File "game/00_definitions.rpy", line 2: end of line expected.
+(Perhaps you left out a ' at the end of the first line.)
+    I'm sorry, but an uncaught exception occurred.
+    
+    While running game code:
+      File "game/script-ch30.rpy", line 23, in script
+        image mask_test = AnimatedMask("#ff6000", "mask_mask", "maskb", 0.10, 32)
+      File "game/script-ch30.rpy", line 23, in <module>
+        image mask_test = AnimatedMask("#ff6000", "mask_mask", "maskb", 0.10, 32)
+    NameError: name 'AnimatedMask' is not defined
+                            ^
+    
+    -- Full Traceback ------------------------------------------------------------
+    
+    Full traceback:
+      File "game/script-ch30.rpy", line 23, in script
+        image mask_test = AnimatedMask("#ff6000", "mask_mask", "maskb", 0.10, 32)
+      File "C:\Users\nutno\Documents\123\FIXED3\renpy-6.99.12.4-sdk\renpy\ast.py", line 907, in execute
+        img = renpy.python.py_eval_bytecode(self.code.bytecode)
+      File "C:\Users\nutno\Documents\123\FIXED3\renpy-6.99.12.4-sdk\renpy\python.py", line 1743, in py_eval_bytecode
+        return eval(bytecode, globals, locals)
+      File "game/script-ch30.rpy", line 23, in <module>
+        image mask_test = AnimatedMask("#ff6000", "mask_mask", "maskb", 0.10, 32)
+    NameError: name 'AnimatedMask' is not defined
+    
+    Windows-8-6.2.9200
+    Ren'Py 6.99.12.4.2187
+
+File "game/00_definitions.rpy", line 26: expected statement.
+    Doki Doki Literature Club! 1.1.1
+                             ^
+
+File "game/00_definitions.rpy", line 27: expected statement.
+    [/code]
+           ^
+
+Ren'Py Version: Ren'Py 6.99.12.4.2187

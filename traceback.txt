@@ -1,0 +1,21 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While parsing C:\Users\nutno\Documents\123\FIXED3\renpy-6.99.12.4-sdk\ddlc-flie/game/transforms.rpy.
+Exception: Could not load file C:\Users\nutno\Documents\123\FIXED3\renpy-6.99.12.4-sdk\ddlc-flie/game/un.rpyc.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "C:\Users\nutno\Documents\123\FIXED3\renpy-6.99.12.4-sdk\renpy\bootstrap.py", line 295, in bootstrap
+    renpy.main.main()
+  File "C:\Users\nutno\Documents\123\FIXED3\renpy-6.99.12.4-sdk\renpy\main.py", line 364, in main
+    renpy.game.script.load_script()  # sets renpy.game.script.
+  File "C:\Users\nutno\Documents\123\FIXED3\renpy-6.99.12.4-sdk\renpy\script.py", line 265, in load_script
+    self.load_appropriate_file(".rpyc", ".rpy", dir, fn, initcode)
+  File "C:\Users\nutno\Documents\123\FIXED3\renpy-6.99.12.4-sdk\renpy\script.py", line 745, in load_appropriate_file
+    raise Exception("Could not load file %s." % lastfn)
+Exception: Could not load file C:\Users\nutno\Documents\123\FIXED3\renpy-6.99.12.4-sdk\ddlc-flie/game/un.rpyc.
+
+Windows-8-6.2.9200
+Ren'Py 6.99.12.4.2187
+ 

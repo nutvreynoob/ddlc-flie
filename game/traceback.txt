@@ -1,0 +1,33 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 9, in script call
+    call ch0_main from _call_ch0_main
+  File "game/script-ch0.rpy", line 20, in script
+    show sayori 4p zorder 2 at t11
+  File "game/script-ch0.rpy", line 20, in <module>
+    show sayori 4p zorder 2 at t11
+NameError: name 't11' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 9, in script call
+    call ch0_main from _call_ch0_main
+  File "game/script-ch0.rpy", line 20, in script
+    show sayori 4p zorder 2 at t11
+  File "C:\Users\nutno\Documents\123\FIXED3\renpy-6.99.12.4-sdk\renpy\ast.py", line 1075, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "C:\Users\nutno\Documents\123\FIXED3\renpy-6.99.12.4-sdk\renpy\ast.py", line 1036, in show_imspec
+    at_list = [ renpy.python.py_eval(i) for i in at_list ]
+  File "C:\Users\nutno\Documents\123\FIXED3\renpy-6.99.12.4-sdk\renpy\python.py", line 1749, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\nutno\Documents\123\FIXED3\renpy-6.99.12.4-sdk\renpy\python.py", line 1743, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script-ch0.rpy", line 20, in <module>
+    show sayori 4p zorder 2 at t11
+NameError: name 't11' is not defined
+
+Windows-8-6.2.9200
+Ren'Py 6.99.12.4.2187
+Doki Doki Literature Club! 1.1.1
